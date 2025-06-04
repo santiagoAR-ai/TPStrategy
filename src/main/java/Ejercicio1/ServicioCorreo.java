@@ -7,8 +7,8 @@ public class ServicioCorreo {
         this.servicio = servicio;
     }
 
-    public double calcularPrecioFinal(Producto producto){
-        return servicio.calcularPrecio(producto);
+    public double calcularPrecioFinal(Envio envio) {
+        return servicio.calcularPrecio(envio);
     }
 
 }
